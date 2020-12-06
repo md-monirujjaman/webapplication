@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+.contenar {
+    max-width: 1000px;
+    background-color:rgb(211, 227, 238);
+    margin: 0 auto;
+    padding: 20px;
+}
+header img {
+    float: left;
+    width: 120px;
+    height: 130px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.header-bio {
+    float: left;
+    padding: 20px;
+}
+.clear-div {
+    clear: both;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #11999e;
+}
+.header-contact {
+    float: right;
+    padding: 20px;
+}
+.header-contact p {
+    padding: 3px;
+}
+.header-contact a {
+    text-decoration: none;
+    color: teal
+}
+.header-contact a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+.tophrline {
+    margin: 20px auto;
+    border: 3px solid black;
+    border-bottom: none;
+}
+.information .experience table {
+    width: 100%;
+    margin-bottom:0;
+}
+.information .experience table th {
+    text-align: center;
+}
+.information .experience table td {
+    padding:20px;
+    border-left: 3px solid
+}
+.information .experience table td dl dt,dd {
+    color: teal;
+}
+.bottomhrline {
+    margin: 20px auto;
+    border: 3px solid red;
+    border-bottom: none;
+}
